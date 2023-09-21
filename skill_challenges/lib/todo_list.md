@@ -16,14 +16,14 @@
     could it print the to do section of it? (unnecessary upgrade)
 
 3. Tests
-    - Given a string commencing in 'TODO', returns True TODO: clean the bathroom
+    <!-- - Given a string commencing in 'TODO', returns True TODO: clean the bathroom
     - Given a string commencing in "To do" returns True
-    - Given a string commencing in 'todo' returns True
-    - Given a string commencing in To Do returns True
+    - Given a string commencing in 'todo' returns True -->
+    <!-- - Given a string commencing in To Do returns True
     - Given a string with multiple sentences which contains Todo in second sentece, return True
     - Given a string with no todo in at all, return false
-    - Given a string with multiple sentences but no todo, return False 
-    - given a string with todo as part of a word returns False "I have a pet pentodon"
+    - Given a string with multiple sentences but no todo, return False  -->
+    <!-- - given a string with todo as part of a word returns False "I have a pet pentodon" -->
     - Given a string with to do as part of a word returns False "we're going to dot's house"
     - Given an empty string, returns error message "text cannot be empty"
 
