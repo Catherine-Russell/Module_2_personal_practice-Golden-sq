@@ -11,8 +11,6 @@ remove a task never added ==> return string "choose a task from this list' and t
 clear the list - remove more than 1 task ==> []
 
 
-
-
 Edge cases
 add empty string ==> raise Exception "task can not be empty string"
 wrong type of entry ==> raise Exception "task must be a string type"
@@ -24,7 +22,7 @@ import pytest
 def test_add_a_task():
     tracker = To_do_tracker()
     tracker.add_task("do laundry")
-    result = tracker.task_lst
+    result = tracker._task_lst
     assert result == ["do laundry"]
 
 def test_add_task_and_call_list():
